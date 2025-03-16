@@ -34,7 +34,8 @@ jupyter notebook openai_gradio_0314.ipynb
 
 
 cf) Azure AI Search에서 데이터를 학습하고 의미 체계를 구성해야 합니다.
-데이터 출처 :
+
+### 데이터 출처 
 https://www.kaggle.com/datasets/srgiomanhes/stardew-valley-villagers-dataset
 
 https://www.kaggle.com/datasets/jessicaebrown/stardew-valley-full-catelog
