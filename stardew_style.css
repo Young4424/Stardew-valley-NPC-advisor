@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: 'SDMisaeng';
+    src: local('SDMisaeng');
+}
+
+* {
+    font-family: 'SDMisaeng', sans-serif !important;
+}
+
+body {
+    background-image: url('https://raw.githubusercontent.com/FernandoBade/stardewOS/refs/heads/main/img/bg.png') !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.gradio-container {
+    max-width: 900px !important;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.main-title {
+    color: #f4af3d;
+    text-shadow: 2px 2px 4px #5e3b18;
+    font-size: 36px !important;
+    text-align: center;
+    margin-bottom: 20px !important;
+    font-weight: bold;
+}
+
+.character-panel {
+    background-color: rgba(237, 216, 181, 0.8) !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    border: 2px solid #8c6a37 !important;
+}
+
+.footer {
+    text-align: center;
+    color: #5e3b18;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.chatbot {
+    border: 3px solid #5e3b18 !important;
+    border-radius: 10px !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+button.primary {
+    background-color: #4c9f38 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+button.primary:hover {
+    background-color: #3a7b2a !important;
+}
+
+textarea, input[type="text"] {
+    border: 2px solid #8c6a37 !important;
+    border-radius: 5px !important;
+}
+
+.citation-box textarea {
+    background-color: #f9f9f9 !important;
+}
+
+.send-btn {
+    background-color: #4c9f38 !important;
+    color: white !important;
+    font-size: 18px !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.send-btn:hover {
+    background-color: #3a7b2a !important;
+}
+
+.prompt-box textarea {
+    border: 2px solid #8c6a37 !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+}
+
+.character-label {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #5e3b18 !important;
+}

@@ -1,0 +1,13 @@
+# API 키 및 비밀 정보가 포함된 파일
+.env
+secrets.py
+config.json
+
+# 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상 환경
+venv/
+env/
